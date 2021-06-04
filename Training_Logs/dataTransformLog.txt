@@ -1,0 +1,10 @@
+2021-05-31/04:55:31		Data Transformation Started Successfully !!....
+2021-05-31/04:55:32		 wafer_13012020_090817.csv: File Transformed successfully!!
+2021-05-31/04:55:34		 wafer_16012020_051629.csv: File Transformed successfully!!
+2021-05-31/04:55:35		 wafer_20022020_090716.csv: File Transformed successfully!!
+2021-05-31/04:55:37		 wafer_21012020_080913.csv: File Transformed successfully!!
+2021-05-31/04:55:39		 wafer_23012020_041211.csv: File Transformed successfully!!
+2021-05-31/04:55:40		 wafer_27012020_080911.csv: File Transformed successfully!!
+2021-05-31/04:55:42		 wafer_28012020_090817.csv: File Transformed successfully!!
+2021-05-31/04:55:45		 wafer_28042020_031911.csv: File Transformed successfully!!
+2021-05-31/04:55:46		 wafer_29012020_050617.csv: File Transformed successfully!!

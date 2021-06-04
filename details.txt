@@ -1,0 +1,56 @@
+training input data location :- Training_Batch_Files
+logger-class:logger - def log () -- > path : application_logging
+
+
+--------------------------------------------------------------
+Training raw data Valididation  :
+
+    training data : Training_Batch_file
+    Training_Raw_data_validation
+
+
+rawValidation.py :-
+****************
+# aim validate the raw data according to the training schema
+def value_from_schema:
+        take value from the training schema and stored in dict
+        - write the logs for that
+        - logs dir- 'Training_Logs\valuesfromSchemaValidationLog.txt'
+
+
+
+def manual regx creation:
+            - maual regx creted to validate the name of the raw training file
+
+def createDirectoryForGoodBadRawData :
+            - created the directories to store the good data and bad data
+            - good  data path = "Training_Raw_files_validated/", "Good_Raw/"
+            - bad data path = "Training_Raw_files_validated/", "Bad_Raw/"
+            - Error : logs stored at :- "Training_Logs/GeneralLog.txt"
+            - return : None
+def deleteExistingGoodDataTrainingFolder(self):
+            - to reuse the folder we need to delete the folder once we move good data to
+                the Database
+            - file path : = 'Training_Raw_files_validated/Good_Data
+            - error: log : "Training_Logs/GeneralLog.txt"
+
+
+
+----------------------------------------------------------------------------------------
+
+Data insertion Training :
+class class dBOperation:
+    - aim : handling the all good and bad data
+    - create the database, table , move good data to the Good database ..
+    - move bad data to the bad database..
+    uses Sqllite3
+
+def databaseconnection(Databasename):
+             - create the database and connection if not exist
+
+def createtabledb(databasename , columnnames):
+            - create the table in given database , according to given column names
+
+
+
+
